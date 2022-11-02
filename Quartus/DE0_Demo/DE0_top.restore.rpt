@@ -1,0 +1,118 @@
+Restore Archived Project report for DE0_top
+Tue Nov  1 01:06:02 2022
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Nov  1 01:06:02 2022 ;
+; Revision Name                   ; DE0_top                               ;
+; Top-level Entity Name           ; DE0_top                               ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Warning (13177): Your design targets the device family "Cyclone V". The specified family is not a valid device family, is not installed, or is not supported in this version of the Quartus Prime software. If you restored a project from an archived version, your project was successfully restored, but you still must specify or install a supported device family.
+Info (13198): Your project was successfully restored, but the device information in the Flow Summary report cannot be updated until the design targets a supported device family.
+Info: Successfully restored 'C:/Users/User/Downloads/DE0_top.qar' into the 'C:/Users/User/Downloads/DE0_top_restored/' directory
+Info: Generated report 'DE0_top.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/21.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Tue Nov  1 01:06:05 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Files Restored                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                            ;
++----------------------------------------------------------------------------------------------------------------------+
+; qar_info.json                                                                                                        ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/Chain9.cdf                            ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/DE0_top.qpf                           ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/DE0_top.qsf                           ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/DE0_top.v                             ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/DE0_top_assignment_defaults.qdf       ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/PLL.ppf                               ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/PLL.qip                               ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/PLL.v                                 ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/PLL_bb.v                              ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/button_debouncer.v                    ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/data.qip                              ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/data.v                                ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/data_bb.v                             ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/de0cv.qsys                            ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/output_files/Chain4.cdf               ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/prog.qip                              ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/prog.v                                ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/prog_bb.v                             ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/ram.qip                               ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/ram.v                                 ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/ram_bb.v                              ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/Quartus/DE0_Demo/seg7_lut.v                            ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/riscv-gnu-toolchain/DE0_top.hex                        ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/Accel/ai_accel.v                                   ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/Leds/leds_mgmt.v                                   ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core.v                                        ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_control_unit.v                           ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_csr_unit/core_csr_unit.v                 ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_csr_unit/core_csr_unit_timer.v           ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_execution_unit/core_execution_unit.v     ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_execution_unit/core_execution_unit_alu.v ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_execution_unit/core_execution_unit_br.v  ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_execution_unit/core_execution_unit_lis.v ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_program_counter.v                        ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/core/core_regfile.v                                ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/mem/mem_data.v                                     ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/mem/mem_prog.v                                     ;
+; Barak/QuartusSetupWeb-14.0.0.200-windows/RV32i-Verilog-master/src/top.v                                              ;
+; barak/quartussetupweb-14.0.0.200-windows/rv32i-verilog-master/data/datamem_h.mem                                     ;
+; barak/quartussetupweb-14.0.0.200-windows/rv32i-verilog-master/src/defines.vh                                         ;
+; sysgcc/risc-v/bin/test.hex                                                                                           ;
++----------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
